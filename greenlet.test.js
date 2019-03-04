@@ -1,4 +1,4 @@
-import greenlet from 'greenlet';
+import greenlet from './greenlet';
 
 describe('greenlet', () => {
 	it('should return an async function', () => {
