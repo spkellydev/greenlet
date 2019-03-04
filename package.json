@@ -1,5 +1,5 @@
 {
-  "name": "greenlet",
+  "name": "greenlet-with-edge",
   "version": "1.0.1",
   "description": "Move an async function into its own thread.",
   "source": "greenlet.js",
@@ -23,7 +23,7 @@
     "index.d.ts",
     "dist"
   ],
-  "repository": "developit/greenlet",
+  "repository": "spkellydev/greenlet",
   "keywords": [
     "greenlet",
     "thread",
@@ -32,8 +32,15 @@
     "web worker"
   ],
   "author": "Jason Miller <jason@developit.ca> (http://jasonformat.com)",
+  "contributors": [
+    {
+      "name": "Sean Kelly",
+      "email": "spkellydev@gmail.com",
+      "url": "https://github.com/spkellydev"
+    }
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/developit/greenlet",
+  "homepage": "https://github.com/spkellydev/greenlet",
   "devDependencies": {
     "eslint": "^4.16.0",
     "eslint-config-developit": "^1.1.1",
